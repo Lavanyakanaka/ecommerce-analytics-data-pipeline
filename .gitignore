@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+
+# Data & Logs
+logs/
+data/processed/
+data/staging/
+
+# OS
+.DS_Store
+Thumbs.db

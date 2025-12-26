@@ -1,0 +1,21 @@
+database:
+  host: localhost
+  port: 5432
+  database: ecommerce_db
+  user: admin
+  password: password
+
+data_generation:
+  num_customers: 1000
+  num_products: 500
+  num_transactions: 10000
+  num_items_min: 15000
+  num_items_max: 25000
+  transaction_date_start: "2024-01-01"
+  transaction_date_end: "2024-12-31"
+
+pipeline:
+  batch_size: 1000
+  logging_level: INFO
+  retry_attempts: 3
+  timeout_seconds: 300

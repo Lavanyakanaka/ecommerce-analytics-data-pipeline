@@ -1,0 +1,22 @@
+database:
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  name: ${DB_NAME}
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+data_generation:
+  customers: 100
+  products: 50
+  transactions: 200
+  start_date: "2024-01-01"
+  end_date: "2024-12-31"
+
+pipeline:
+  batch_size: 500
+  retries: 3
+  timeout_seconds: 30
+  logging_level: INFO
+
+bi_tool:
+  tool: powerbi   # tableau | powerbi

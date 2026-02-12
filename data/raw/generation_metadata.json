@@ -1,0 +1,8 @@
+{
+    "generated_at": "2026-02-11T17:36:56.492502",
+    "validation": {
+        "customer_fk_valid": true,
+        "product_fk_valid": true,
+        "transaction_fk_valid": true
+    }
+}
